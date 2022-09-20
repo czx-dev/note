@@ -1,0 +1,16 @@
+Alibaba Java Coding Guidelines  ---alibaba 规范
+CodeGlance ---代码缩放图
+EasyYapi  ---生成Makedown 文档
+GenerateAllSetter  --- 快速生成set
+Grep Console ---日志颜色过滤
+GsonOrXmlFormat ---根据json/xml 生成实体
+IDE Eval Reset  ----重置IDEA有效期
+Jrebel and Xrebel for interllil  ---热部署
+Key promoterX   --- 快捷键提示
+Live Edit
+MybatisCodeHelperPro  ---Mybatis 提示快速生成
+Rainbow Brackets   ---括号颜色标识
+SequenceDiagram  ---继承关系显示
+SpotBugs  ---- 存在问题查找
+springmvc2swagger
+translation ---翻译

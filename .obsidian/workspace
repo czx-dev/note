@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "030fb1296c78f291",
+    "type": "split",
+    "children": [
+      {
+        "id": "10f2240afa2053fa",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SpringCloud  商城使用.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b124dfd74edbe559",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac279cac4600cfd6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4edcf069e9a4cf49",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "df82b67e8ae5c34e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a0144a8ce0cc2927",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "309b9aadf81ed845",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8ea41e61d262477",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fb308caa6b49057",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SpringCloud  商城使用.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6a1c557daa0ae983",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SpringCloud  商城使用.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "da022f65a64767bb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bf625e9a733d2005",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SpringCloud  商城使用.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "10f2240afa2053fa",
+  "lastOpenFiles": [
+    "面试题.md",
+    "Docker使用.md",
+    "oauthToken.png",
+    "MQ(消息队列).md",
+    "zookeeper 使用.md",
+    "SpringCloud  商城使用.md",
+    "Canal.md",
+    "Jmeter.md",
+    "ElasticSearch 使用.md",
+    "debug调试.md"
+  ]
+}

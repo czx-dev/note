@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="G-_TgdMXA0ZUyMtuS_ir" name="第 1 页">
+        <mxGraphModel dx="562" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Class :&lt;span&gt;&#9;&lt;/span&gt; AbstracAuthenticationProcessingFilter&lt;span&gt;&lt;br&gt;&lt;/span&gt;mehdo : &lt;span&gt;&#9;&lt;/span&gt;doFilter&lt;span style=&quot;background-color: rgb(43 , 43 , 43)&quot;&gt;&lt;font color=&quot;#ffc66d&quot;&gt;&lt;span style=&quot;font-size: 12pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;effect :&lt;span&gt;&#9;&lt;/span&gt;验证path&lt;br&gt;&lt;span&gt;return :&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;调用认证成功/失败方法&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="60" width="390" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Class:&amp;nbsp; &amp;nbsp; &amp;nbsp;ClientCredentialsTokenEndpointFilter&lt;br&gt;method:&amp;nbsp; &amp;nbsp;attempAuthentication&lt;br&gt;effect:&amp;nbsp; 获取登录标识(用户名,密码)&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="230" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Calss :&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;ProviderMarager&lt;br&gt;method :&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;authenticate&lt;br&gt;effect :&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;查找合适的authentiction , 生成新Token" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="370" width="410" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&#10;&#10;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;Calss :&lt;/span&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42);&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;ProviderMarager&lt;/span&gt;&lt;br style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42);&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;method :&lt;/span&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42);&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;authenticate&lt;/span&gt;&lt;br style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42);&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;effect :&lt;/span&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42);&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;查找合适的authentiction , 生成新Token&lt;/span&gt;&#10;&#10;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="510" width="400" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
