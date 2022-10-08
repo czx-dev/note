@@ -130,15 +130,15 @@
   },
   "active": "17b61ac6c4ba0362",
   "lastOpenFiles": [
-    "2022-10-04.md",
+    "mybatis/mybatis缓存.md",
     "mybatis/自定义持久层框架.md",
+    "2022-10-04.md",
     "[[自定义持久层框架.md",
     "未命名.md",
     "Dubbo 使用.md",
     "debug调试.md",
     "Docker使用.md",
     "druid多数据源.md",
-    "security认证流程.md",
-    "MQ(消息队列).md"
+    "security认证流程.md"
   ]
 }
