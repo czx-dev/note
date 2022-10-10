@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "debug调试.md",
+            "file": "Canal.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "debug调试.md",
+                "file": "Canal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "debug调试.md",
+                "file": "Canal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "debug调试.md"
+                "file": "Canal.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "10f2240afa2053fa",
   "lastOpenFiles": [
+    "debug调试.md",
     "Canal.md",
     "面试题.md",
     "和前端Vue有关的使用.md",
@@ -138,7 +139,6 @@
     "oauthToken.png",
     "MQ(消息队列).md",
     "zookeeper 使用.md",
-    "Jmeter.md",
-    "ElasticSearch 使用.md"
+    "Jmeter.md"
   ]
 }
