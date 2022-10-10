@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SpringCloud  商城使用.md",
+            "file": "debug调试.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SpringCloud  商城使用.md",
+                "file": "debug调试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SpringCloud  商城使用.md",
+                "file": "debug调试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SpringCloud  商城使用.md"
+                "file": "debug调试.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "10f2240afa2053fa",
   "lastOpenFiles": [
+    "Canal.md",
     "面试题.md",
+    "和前端Vue有关的使用.md",
+    "SpringCloud  商城使用.md",
     "Docker使用.md",
     "oauthToken.png",
     "MQ(消息队列).md",
     "zookeeper 使用.md",
-    "SpringCloud  商城使用.md",
-    "Canal.md",
     "Jmeter.md",
-    "ElasticSearch 使用.md",
-    "debug调试.md"
+    "ElasticSearch 使用.md"
   ]
 }
