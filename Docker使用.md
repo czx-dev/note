@@ -2,7 +2,7 @@
 
 windwos 容器位于:\\wsl$\docker-desktop-data\version-pack-data\community\docker\containers
 
-## 端口映射:      
+## 端口映射:  
 
 ### 1.创建容器时映射
 
