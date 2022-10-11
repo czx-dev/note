@@ -4,7 +4,7 @@ windwos 容器位于:\\wsl$\docker-desktop-data\version-pack-data\community\dock
 
 ## 端口映射:  
 
-### 1.创建容器时映射
+### 1. 创建容器时映射
 
 ```shell
 docker run -d -p 50001:22 -p 53306:3306 --privileged --name centos8 chenzhongxian/learn:v0.1
@@ -21,9 +21,9 @@ chenzhongxian/learn:v0.1 远程仓库:tag
 
 
 
-### 2.后续添加---已创建容器
+### 2. 后续添加---已创建容器
 
-#### 	1.docker container update --restart=always 容器名字
+#### 	1. docker container update --restart=always 容器名字
 
 #### 	2.关闭docker 
 
@@ -69,3 +69,35 @@ chenzhongxian/learn:v0.1 远程仓库:tag
 
 
 
+## 挂载卷:
+
+### 1. 创建容器时进行挂载
+```shell
+dockcer run -v 主机:容器
+```
+### 2. 后续添加已创建容器
+
+#### 1. 修改 hostconfig.json 文件  Binds 列表中增加 "主机目录:容器目录" 
+### 2. 修改 config.v2.json 文件
+```shell
+"MountPoints": {
+ 
+"/import（容器）": {
+            "Source": "/data（主机）",
+            "Destination": "/import（容器）",
+            "RW": true,
+            "Name": "",
+            "Driver": "",
+            "Type": "bind",
+            "Propagation": "rprivate",
+            "Spec": {
+                "Type": "bind",
+                "Source": "/data（主机）",
+                "Target": "/import（容器）"
+            },
+            "SkipMountpointCreation": false
+        }
+
+```
+
+	

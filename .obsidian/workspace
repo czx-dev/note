@@ -1,23 +1,15 @@
 {
   "main": {
-<<<<<<< HEAD
-    "id": "5915e8caf56ae382",
+    "id": "6c40347b58d60109",
     "type": "split",
     "children": [
       {
-        "id": "39b394859b0aaa36",
-=======
-    "id": "02bc72f7fd4f5a9c",
-    "type": "split",
-    "children": [
-      {
-        "id": "17b61ac6c4ba0362",
->>>>>>> ea2f9949f9fb24590b49ab7df7f821c39ac3cbca
+        "id": "245af7935826956c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "mybatis/自定义持久层框架.md",
+            "file": "mybatis/自定义插件.md",
             "mode": "source",
             "source": false
           }
@@ -27,27 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-<<<<<<< HEAD
-    "id": "5d4e03cf5d09a452",
+    "id": "6fc2a834814e3960",
     "type": "split",
     "children": [
       {
-        "id": "86523d4948f6d2fe",
+        "id": "420ee0135135b819",
         "type": "tabs",
         "children": [
           {
-            "id": "3fe3f1276cc7e30a",
-=======
-    "id": "b16edfcd5e621e80",
-    "type": "split",
-    "children": [
-      {
-        "id": "3fdb5edcd53318fb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "136c2066a064b5f9",
->>>>>>> ea2f9949f9fb24590b49ab7df7f821c39ac3cbca
+            "id": "a9a6ab7200d8c612",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,11 +35,7 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "183e98128bc39697",
-=======
-            "id": "c440485a27c46112",
->>>>>>> ea2f9949f9fb24590b49ab7df7f821c39ac3cbca
+            "id": "821d1495e62d25bf",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -74,11 +50,7 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "019b61a08f73839f",
-=======
-            "id": "15995a8a639b2e20",
->>>>>>> ea2f9949f9fb24590b49ab7df7f821c39ac3cbca
+            "id": "6e59857b3eeeac23",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -92,32 +64,20 @@
     "width": 300
   },
   "right": {
-<<<<<<< HEAD
-    "id": "96176031bfa064c7",
+    "id": "978b7c7af57cf5cb",
     "type": "split",
     "children": [
       {
-        "id": "a04ad754b23f6c83",
+        "id": "d529a4473cef385f",
         "type": "tabs",
         "children": [
           {
-            "id": "a7ffd0a6f438e0fb",
-=======
-    "id": "447c841fd347f1dd",
-    "type": "split",
-    "children": [
-      {
-        "id": "2790f249ed8314a1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3739d3823a2fa5c5",
->>>>>>> ea2f9949f9fb24590b49ab7df7f821c39ac3cbca
+            "id": "6acef7776c255a88",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mybatis/自定义持久层框架.md",
+                "file": "mybatis/自定义插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,27 +89,19 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "47792e4b2dd15638",
-=======
-            "id": "2487a942cb2ad5e5",
->>>>>>> ea2f9949f9fb24590b49ab7df7f821c39ac3cbca
+            "id": "d5a1660a36b47e71",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mybatis/自定义持久层框架.md",
+                "file": "mybatis/自定义插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-<<<<<<< HEAD
-            "id": "f1f438639377a51f",
-=======
-            "id": "e134d656f145fe74",
->>>>>>> ea2f9949f9fb24590b49ab7df7f821c39ac3cbca
+            "id": "c290e2c2719d35b3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -160,17 +112,29 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "3968e06696b88554",
-=======
-            "id": "a23500c9b431b7f3",
->>>>>>> ea2f9949f9fb24590b49ab7df7f821c39ac3cbca
+            "id": "12ecef4a65f6971f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "mybatis/自定义持久层框架.md"
+                "file": "mybatis/自定义插件.md"
               }
+            }
+          },
+          {
+            "id": "05ccf3674cdbdf25",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "8c496d84ad86ba0e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -180,25 +144,17 @@
     "width": 300,
     "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "39b394859b0aaa36",
+  "active": "245af7935826956c",
   "lastOpenFiles": [
-    "mybatis/mybatis缓存.md",
-    "picture/20221004230413.png",
-    "picture/20221004225653.png"
-=======
-  "active": "17b61ac6c4ba0362",
-  "lastOpenFiles": [
-    "mybatis/mybatis缓存.md",
     "mybatis/自定义持久层框架.md",
-    "2022-10-04.md",
-    "[[自定义持久层框架.md",
-    "未命名.md",
-    "Dubbo 使用.md",
+    "mybatis/自定义插件.md",
+    "mybatis/mybatis缓存.md",
     "debug调试.md",
     "Docker使用.md",
     "druid多数据源.md",
-    "security认证流程.md"
->>>>>>> ea2f9949f9fb24590b49ab7df7f821c39ac3cbca
+    "Dubbo 使用.md",
+    "ElasticSearch 使用.md",
+    "Jmeter.md",
+    "MQ(消息队列).md"
   ]
 }
