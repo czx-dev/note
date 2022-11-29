@@ -2,36 +2,26 @@
   "commitMessage": "vault backup: {{date}}",
   "autoCommitMessage": "vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 2,
-<<<<<<< HEAD
+  "autoSaveInterval": 0,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
-=======
-  "autoPushInterval": 0.2,
-  "autoPullInterval": 15,
-  "autoPullOnBoot": true,
->>>>>>> ea2f9949f9fb24590b49ab7df7f821c39ac3cbca
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
   "listChangedFilesInMessageBody": false,
   "showStatusBar": true,
-  "updateSubmodules": false,
+  "updateSubmodules": true,
   "syncMethod": "merge",
   "customMessageOnAutoBackup": false,
-  "autoBackupAfterFileChange": true,
+  "autoBackupAfterFileChange": false,
   "treeStructure": false,
   "refreshSourceControl": true,
-<<<<<<< HEAD
-  "basePath": "https://github.com/czx-865199614/note.git",
-=======
-  "basePath": "git@github.com:czx-865199614/note.git",
->>>>>>> ea2f9949f9fb24590b49ab7df7f821c39ac3cbca
+  "basePath": "",
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
-  "username": "",
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,
-  "showBranchStatusBar": true
+  "showBranchStatusBar": true,
+  "setLastSaveToLastCommit": false
 }
