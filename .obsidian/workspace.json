@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "978b7c7af57cf5cb",
@@ -163,7 +164,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "af012ee362156420",
+  "active": "a9a6ab7200d8c612",
   "lastOpenFiles": [
     "Day Planners/Day Planner-20221129.md",
     "Docker使用.md",
