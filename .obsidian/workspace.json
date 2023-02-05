@@ -30,9 +30,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "53c94046347939fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "读书笔记/未命名.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/目录.md",
+                "file": "读书笔记/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "读书笔记/目录.md",
+                "file": "读书笔记/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "读书笔记/目录.md"
+                "file": "读书笔记/未命名.md"
               }
             }
           },
@@ -184,8 +197,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4e31a46b82ac5242",
+  "active": "53c94046347939fd",
   "lastOpenFiles": [
+    "读书笔记/目录.md",
+    "读书笔记/未命名.md",
     "算法/未命名.md",
     "Day Planners/Day Planner-20221129.md",
     "Docker使用.md",
@@ -193,8 +208,6 @@
     "2022-11-29.md",
     "和前端Vue有关的使用.md",
     "mybatis/自定义持久层框架.md",
-    "mybatis/自定义插件.md",
-    "mybatis/mybatis缓存.md",
-    "debug调试.md"
+    "mybatis/自定义插件.md"
   ]
 }
