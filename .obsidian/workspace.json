@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "读书笔记/花里胡哨的句子.md",
+                "file": "读书笔记/目录.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/花里胡哨的句子.md",
+                "file": "读书笔记/目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "读书笔记/花里胡哨的句子.md",
+                "file": "读书笔记/目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "读书笔记/花里胡哨的句子.md"
+                "file": "读书笔记/目录.md"
               }
             }
           },
@@ -240,8 +240,8 @@
   },
   "active": "cb95867106f00a69",
   "lastOpenFiles": [
-    "读书笔记/目录.md",
     "读书笔记/花里胡哨的句子.md",
+    "读书笔记/目录.md",
     "算法/未命名.md",
     "Day Planners/Day Planner-20221129.md",
     "Docker使用.md",
