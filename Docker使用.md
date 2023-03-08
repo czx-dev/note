@@ -2,14 +2,14 @@
 
 windwos 容器位于:\\wsl$\docker-desktop-data\version-pack-data\community\docker\containers
 
-## 端口映射:  
+## 端口映射:                
 
 ### 1. 创建容器时映射
 
 ```shell
 docker run -d -p 50001:22 -p 53306:3306 --privileged --name centos8 chenzhongxian/learn:v0.1
 ```
-
+              
 ```shell
 参数说明:
 -p 宿主机端口:容器端口
