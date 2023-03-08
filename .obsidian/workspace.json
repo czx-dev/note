@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mybatis/自定义插件.md",
+                "file": "和前端Vue有关的使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mybatis/自定义插件.md",
+                "file": "和前端Vue有关的使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mybatis/自定义插件.md",
+                "file": "和前端Vue有关的使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mybatis/自定义插件.md"
+                "file": "和前端Vue有关的使用.md"
               }
             }
           },
@@ -213,12 +213,12 @@
   },
   "active": "0ced4b3d1ca89930",
   "lastOpenFiles": [
+    "mybatis/自定义插件.md",
     "mybatis/自定义持久层框架.md",
     "mybatis/自定义SQL注入器.md",
     "mybatis/mybatis缓存.md",
     "数据库/hbase.md",
     "mybatis/未命名.md",
-    "mybatis/自定义插件.md",
     "Dubbo 使用.md",
     "debug调试.md",
     "Docker使用.md",
