@@ -1,3 +1,8 @@
+
+---
+title: Dokcer 配置相关
+date: 2022-11-11
+---
 # Docker使用
 
 windwos 容器位于:\\wsl$\docker-desktop-data\version-pack-data\community\docker\containers
@@ -99,5 +104,3 @@ dockcer run -v 主机:容器
         }
 
 ```
-
-	
