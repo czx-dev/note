@@ -107,4 +107,4 @@ dockcer run -v 主机:容器
 
 # Docker-compose
 ## 简介
-docker-compose是基于docker的开源项目
+docker-compose是基于docker的开源项目，利用yaml配置文件对容器快速编排，只能对本机的docker进行处理
