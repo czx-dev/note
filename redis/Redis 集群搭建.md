@@ -17,5 +17,26 @@ redis-trib create -a 123456 --replicas ip:prot ip:port
 # -a 密码认证(没有密码不用带此参数)
 # --cluster add-node 添加节点 新节点IP:新节点端口 任意存活节点IP:任意存活节点端口
 ./bin/redis-cli -a 123456 --cluster add-node 192.168.100.104:8007 192.168.100.101:8001
+# 重新分配哈希槽  all 表示所有
+./bin/redis-cli --cluster reshard 192.168.100.101:8002
+
+```
+### 4. 增加从节点
+```shell
+# 使用如下命令即可添加节点将一个新的节点添加到集群中
+# -a 密码认证(没有密码不用带此参数)
+# --cluster add-node 添加节点 新节点IP:新节点端口 任意存活节点IP:任意存活节点端口
+./bin/redis-cli -a 123456 --cluster add-node 192.168.100.104:8007 192.168.100.101:8001
+# 连接redis
+./bin/redis-cli
+# 绑定主节点
+CLUSTER REPLICATE 主节点ID
+```
+### 5.删除节点
+```shell 
+# 执行如下命令删除节点
+# -a 密码认证(没有密码不用带此参数)
+# --cluster del-node 连接任意一个存活的节点IP:连接任意一个存活的节点端口 要删除节点ID 
+./bin/redis-cli -a 123456 --cluster del-node 192.168.100.101:8002 8cf44439390dc9412813ad27c43858a6bb53365c
 
 ```
