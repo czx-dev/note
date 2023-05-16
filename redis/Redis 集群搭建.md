@@ -40,3 +40,10 @@ CLUSTER REPLICATE 主节点ID
 ./bin/redis-cli -a 123456 --cluster del-node 192.168.100.101:8002 8cf44439390dc9412813ad27c43858a6bb53365c
 
 ```
+### 6.重新分配槽
+```shel
+# -a 密码认证(没有密码不用带此参数)
+# --cluster rebalance 重新分配集群中的槽位
+./bin/redis-cli -a 123456 --cluster rebalance 192.168.100.101:8002
+
+```
