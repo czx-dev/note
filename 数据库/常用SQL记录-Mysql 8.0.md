@@ -1,4 +1,4 @@
-连续数字(Mysql 8.0)
+连续数字
 
 ``` sql 
 WITH RECURSIVE cte (num) AS
@@ -12,7 +12,7 @@ FROM cte;
 
 ```
 
-连续日期 年月日（Mysql 8.0）
+连续日期 年月日
 ```sql
 SELECT * FROM  (
 WITH RECURSIVE cte (date_for) AS
