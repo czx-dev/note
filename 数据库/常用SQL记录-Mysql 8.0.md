@@ -27,4 +27,4 @@ FROM cte
 
  LEFT JOIN table_name  ON  DATE_FORMAT(table_name.create_time,'%y-%m-%d')=temp.date_for
 
-```
+```    
