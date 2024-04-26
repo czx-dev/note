@@ -24,7 +24,6 @@ WITH RECURSIVE cte (date_for) AS
 SELECT date_for
 FROM cte
 ) temp 
-
  LEFT JOIN table_name  ON  DATE_FORMAT(table_name.create_time,'%y-%m-%d')=temp.date_for
 
 ```    
