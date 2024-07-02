@@ -45,14 +45,30 @@ import java.util.List;
 
 @Component
 @RocketMQMessageListener( topictopic = ,  consumerGroup = ,  messageModel =  )
-public class RocketMQConsumer implements RocketMQListener<>, MessageListenerConcurrently {
-    @Override
-    public void onMessage(RocketMQWebSocketMessage message) {
-        rocketMQWebSocketMessageSender.send(message.getSessionId(),
-                message.getUserType(), message.getUserId(),
-                message.getMessageType(), message.getMessageContent());
-    }
-    
+public class RocketMQConsumer implements MessageListenerConcurrently {
+
+	//自定ACK应答逻辑
+        @Override
+        public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs, ConsumeConcurrentlyContext context) {
+            for (MessageExt messageExt : msgs) {
+                log.debug("received msg: {}", messageExt);
+                try {
+                    long now = System.currentTimeMillis();
+                    handleMessage(messageExt);
+                    long costTime = System.currentTimeMillis() - now;
+	                //消费逻辑
+                    log.debug("consume {} cost: {} ms", messageExt.getMsgId(), costTime);
+                } catch (Exception e) {
+                    log.warn("consume message failed. messageId:{}, topic:{}, reconsumeTimes:{}", messageExt.getMsgId(), messageExt.getTopic(), messageExt.getReconsumeTimes(), e);
+                    context.setDelayLevelWhenNextConsume(delayLevelWhenNextConsume);
+                    return ConsumeConcurrentlyStatus.RECONSUME_LATER;
+                }
+            }
+
+            return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
+        }
+
+
 }
 
 
