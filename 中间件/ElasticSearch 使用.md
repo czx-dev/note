@@ -33,7 +33,7 @@ delete 删除数据
 
 "term":  {} 用于非文本字段查询
 
-```
+```http
 //查询 字段address| city 中 包含 mail | movico 的文档
 GET 索引/_search
 {
@@ -46,7 +46,7 @@ GET 索引/_search
 }
 ```
 
-```
+```http
 //查询 字段address| city 中 包含 mail | movico 的文档
 GET 索引/_search
 {
